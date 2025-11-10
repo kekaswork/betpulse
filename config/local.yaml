@@ -1,0 +1,12 @@
+env: "local"
+grpc:
+  port: 44044
+  timeout: 1h
+storage:
+  driver: "postgres"
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "postgres"
+  dbname: "betpulse_local"
+  timeout: 1h
